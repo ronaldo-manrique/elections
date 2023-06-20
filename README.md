@@ -4,6 +4,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Available Scripts
 
+### npm install
 In the project directory, you can run:
 
 ## FRONTEND
@@ -18,6 +19,7 @@ You may also see any lint errors in the console.
 ### `npm run fake-api`
 Runs the server in the development mode
 Open [http://localhost:5000](http://localhost:5000/user) to view it in your browser.
+
 
  ### `npm test`
 
