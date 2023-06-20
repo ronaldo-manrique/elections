@@ -9,16 +9,16 @@ const CrudTable = ({ data, setDataToEdit, deleteData }) => {
   };
   return (
     <div >
-      <h3 className="text-center ">INFROMACION ELECTIONS</h3>
+      <h3 className="text-center ">ELECTION INFORMATION</h3>
       <div style={tableContainerStyle} className="table-container" >
       <table className="table P-4">
         <thead>
           <tr>
             {/* <th>id</th> */}
             <th>year</th>
-            <th>partido</th>
-            <th>condado</th>
-            <th>votos</th>
+            <th>political party</th>
+            <th>county</th>
+            <th>vote count</th>
             <th></th>
           </tr>
         </thead>

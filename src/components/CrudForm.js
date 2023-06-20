@@ -45,7 +45,7 @@ const CrudForm = ({ createData, updateData, dataToEdit, setDataToEdit }) => {
       <div id="election"className="border border border-3 ">
         <h4 className="text-bg-primary p-3 ">Election</h4>
 
-        <h4 className="text-center">{dataToEdit ? "Editar" : "Agregar"}</h4>
+        <h4 className="text-center">{dataToEdit ? "Edit" : "Add"}</h4>
 
         <form  className="form-control formulario" onSubmit={handleSubmit}>
           <label>year</label>

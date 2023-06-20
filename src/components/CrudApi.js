@@ -19,7 +19,7 @@ const CrudApi = () => {
   const [loading, setLoading] = useState(false);
   const [cooki,setCooki] = useState(cookies);
 
-  let api = helpHttp();
+  let api =helpHttp();
   let url = "http://localhost:5000/eleciones";
 
   useEffect(() => {
@@ -108,7 +108,7 @@ const CrudApi = () => {
 
   return (
     <div> 
-    <div><button id="cerrar" className="btn btn-warning" onClick={cerrarsesion}>cerrar sesion</button></div>     
+    <div><button id="cerrar" className="btn btn-warning" onClick={cerrarsesion}>Sing out</button></div>     
       <article className="grid-1-2">
       
         <CrudForm

@@ -10,8 +10,8 @@ const CrudTable=({elemento,setDataToEdit,deleteData})=>{
             <td>{votos}</td>
             
             <td> 
-                <button className="button btn btn-info" onClick={()=>setDataToEdit(elemento)}>editar</button>
-                <button className="button btn btn-danger" onClick={()=>deleteData(id)}>eliminar</button>
+                <button className="button btn btn-info" onClick={()=>setDataToEdit(elemento)}>edit</button>
+                <button className="button btn btn-danger" onClick={()=>deleteData(id)}>delete</button>
             </td>
           </tr>
       )
