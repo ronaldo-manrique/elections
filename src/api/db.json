@@ -1,0 +1,59 @@
+{
+  "user": [
+    {
+      "email": "juan@gmail.com",
+      "password": "12345"
+    }
+  ],
+  "eleciones": [
+    {
+      "year": "2030",
+      "politico": "republic",
+      "id": 813,
+      "county": "usa",
+      "votos": "1111"
+    },
+    {
+      "year": "1900",
+      "politico": "republic",
+      "id": 469,
+      "county": "234234",
+      "votos": "3424234"
+    },
+    {
+      "year": "1901",
+      "politico": "republic",
+      "id": 372,
+      "county": "24213423",
+      "votos": "4323423"
+    },
+    {
+      "year": "1901",
+      "politico": "republic",
+      "id": 562,
+      "county": "232343",
+      "votos": "324234"
+    },
+    {
+      "year": "1905",
+      "politico": "republic",
+      "id": 249,
+      "county": "florida",
+      "votos": "1234"
+    },
+    {
+      "year": "1904",
+      "politico": "republic",
+      "id": 974,
+      "county": "ere",
+      "votos": "33333"
+    },
+    {
+      "year": "1907",
+      "politico": "democrat",
+      "id": 671,
+      "county": "www",
+      "votos": "22"
+    }
+  ]
+}
